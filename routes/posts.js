@@ -29,3 +29,5 @@ app.delete('/posts/:id', function(req, res) {
     var id = req.params.id;
     res.send("You deleted post " + id);
 });
+
+module.exports = app;
